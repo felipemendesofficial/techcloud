@@ -13,6 +13,7 @@ export default function Index() {
     <div>
       <h1 className="bg-cyan-400">Teste1</h1>
       <Button>Click me</Button>
+      <p className="bg-cyan-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, ducimus rem iste corrupti cupiditate commodi sit ullam rerum atque exercitationem non voluptas labore consequatur pariatur sed ut magni minima nobis!</p>
     </div> 
   );
 }
