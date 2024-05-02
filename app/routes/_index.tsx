@@ -27,12 +27,10 @@ export default function Index() {
               <a href="#sobre" className="text-white hover:text-gray-300">Sobre Nós</a>
               <a href="#blog" className="text-white hover:text-gray-300">Blog</a>
               <a href="#clientes" className="text-white hover:text-gray-300">Clientes</a>
+              <a href="#contato" className="text-white hover:text-gray-300 hidden md:block">Entre em Contato</a>
             </div>
           </div>
 
-          <div>
-            <a href="#contato" className="text-white hover:text-gray-300">Entre em Contato</a>
-          </div>
 
           {/* Ícone do menu (para telas menores) */}
           <div className="flex items-center md:hidden">
