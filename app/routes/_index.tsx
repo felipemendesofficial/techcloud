@@ -15,9 +15,9 @@ export default function Index() {
 
           {/* Logotipo */}
           <div className="flex-shrink-0 flex items-center">
-            <img className="h-8" src="" alt="Logo" />
+            <img className="h-8" src="imagens/logo.png" alt="Logo" />
           </div>
-          
+
           {/* Links de navegação (centralizados) */}
           <div className="flex justify-center flex-1 md:justify-end">
             <div className="hidden md:flex space-x-4">
@@ -33,7 +33,7 @@ export default function Index() {
           <div>
             <a href="#contato" className="text-white hover:text-gray-300">Entre em Contato</a>
           </div>
-          
+
           {/* Ícone do menu (para telas menores) */}
           <div className="flex items-center md:hidden">
             <button type="button" className="text-white hover:text-gray-300 focus:outline-none focus:text-gray-300">
@@ -44,6 +44,6 @@ export default function Index() {
           </div>
         </div>
       </nav>
-    </div> 
+    </div>
   );
 }
