@@ -12,11 +12,11 @@ export default function Index() {
     <>
       {/* NavBar */}
       <nav className="bg-blue-900">
-        <div className="max-w-5xl mx-auto px-4 flex h-16 w-full">
+        <div className="max-w-5xl mx-auto px-4 flex h-20 w-full">
 
           {/* Logotipo */}
           <div className="flex items-center">
-            <img className="h-11" src="imagens/logo.png" alt="Logo" />
+            <img className="h-14" src="imagens/logo.png" alt="Logo" />
           </div>
 
           {/* Links de navegação (centralizados) */}
@@ -47,7 +47,7 @@ export default function Index() {
         </div>
       </nav>
       
-      {/* Primeira section */}
+      {/* Capa */}
       <section className="relative">
         <img className="w-full h-auto" src="imagens/fundo-inicial.png" alt="Imagem de fundo" />
 
@@ -64,7 +64,7 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Primeiro card */}
+      {/* Card de segmentos */}
       <section className="bg-gray-200 flex items-center justify-center py-40">
         <div className="max-w-5xl px-4">
           <h1 className=" flex justify-center text-4xl font-medium text-gray-600">
@@ -126,7 +126,7 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Segunda section */}
+      {/* Section ERP */}
       <section className="bg-blue-800 flex items-center justify-center py-40">
         <div className="max-w-5xl w-full flex px-4">
           <div className="w-1/3 content-center">
@@ -136,7 +136,7 @@ export default function Index() {
             <h2 className="text-4xl font-medium text-white mb-2">
               Sistema de Gestão Empresarial
             </h2>
-            <p className="text-base text-white">
+            <p className="text-base text-white text-justify">
               Escolha um sistema de gerenciamento empresarial confiável e mantenha
               seus dados seguros. Desfrute da eficiência operacional ao conectar
               todos os setores para automatizar tarefas manuais, ganhando tempo e
@@ -152,7 +152,7 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Terceira section */}
+      {/* Section interções */}
       <section className="bg-gray-200 flex items-center justify-center py-20">
         <div className="max-w-7xl p-4">
           <div className="flex flex-col items-center">
@@ -205,24 +205,32 @@ export default function Index() {
           </div>
           <div className="grid grid-cols-4 gap-4 mt-8">
             <div className="bg-white shadow-lg hover:shadow-2xl rounded-md p-4">
+                <a href="https://www.telhasnordeste.com.br/" target="_blank" rel="noreferrer">
+                  <div className="flex justify-center items-center h-full w-auto p-1">
+                    <img src="https://www.telhasnordeste.com.br/imagens/logo-telhas-nordeste.png" alt="Empresa Telhas Nordeste" />
+                  </div>
+                </a>
+            </div>
+            <div className="bg-white shadow-lg hover:shadow-2xl rounded-md p-4">
+              <a href="http://www.adinor.com.br/" target="_blank" rel="noreferrer">
                 <div className="flex justify-center items-center h-full w-auto p-1">
-                  <img src="https://www.telhasnordeste.com.br/imagens/logo-telhas-nordeste.png" alt="Telhas Nordeste" />
+                    <img src="http://www.adinor.com.br/imagens/logo-adinor-oficial.png" alt="Empresa Adinor" />
                 </div>
+              </a>
             </div>
             <div className="bg-white shadow-lg hover:shadow-2xl rounded-md p-4">
-              <div className="flex justify-center items-center h-full w-auto p-1">
-                  <img src="http://www.adinor.com.br/imagens/logo-adinor-oficial.png" alt="Telhas Nordeste" />
-              </div>
+              <a href="https://www.vittacroc.com.br/" target="_blank" rel="noreferrer">
+                <div className="flex justify-center items-center h-full w-auto p-1">
+                    <img src="https://www.vittacroc.com.br/wp-content/uploads/2018/01/marca-vittacroc.png" alt="Empresa Vitta Croc" />
+                </div>
+              </a>
             </div>
             <div className="bg-white shadow-lg hover:shadow-2xl rounded-md p-4">
-              <div className="flex justify-center items-center h-full w-auto p-1">
-                  <img src="https://www.vittacroc.com.br/wp-content/uploads/2018/01/marca-vittacroc.png" alt="Telhas Nordeste" />
-              </div>
-            </div>
-            <div className="bg-white shadow-lg hover:shadow-2xl rounded-md p-4">
-              <div className="flex justify-center items-center h-full w-auto p-1">
-                  <img src="http://www.carballofaroimport.com.br/ws/media-library/ac121b05d18247809d5a4f7038146364/carballo_faro.png" alt="Telhas Nordeste" />
-              </div>
+              <a href="http://www.carballofaroimport.com.br/" target="_blank" rel="noreferrer">
+                <div className="flex justify-center items-center h-full w-auto p-1">
+                    <img src="http://www.carballofaroimport.com.br/ws/media-library/ac121b05d18247809d5a4f7038146364/carballo_faro.png" alt="" />
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -258,13 +266,66 @@ export default function Index() {
         </div>
       </section>
 
-      <div className="bg-blue-800">
-        <h1 className="p-20">Espaco</h1>
-      </div>
+      {/* Blog */}
+      <section className="bg-blue-800 flex items-center justify-center py-20">
+        <div className="max-w-7xl p-4">
+          <div className="flex justify-center items-center">
+            <h1 className="text-3xl font-bold text-white">Blog</h1>
+          </div>
+          <div className="grid grid-cols-4 gap-4 mt-8">
+            <div className="bg-white shadow-lg hover:shadow-2xl rounded-md p-4">
+                <div className="flex flex-col items-center h-full w-auto p-1 gap-2">
+                  <div className="flex justify-center items-center h-40 w-60">
+                    <img className="w-full h-auto rounded-lg" src="https://www.sofis.com.br/wp-content/uploads/2015/10/04-1.png" alt="" />
+                  </div>
+                  <div className="flex flex-col gap-1 text-gray-600">
+                    <h1 className="text-xl font-bold">Introdução</h1>
+                    <p className="text-justify">Bem-vindo ao nosso blog sobre Empresas ERP! Aqui, exploraremos o mundo dos sistemas de Planejamento de Recursos Empresariais (ERP) e como eles transformam a gestão empresarial moderna. Os ERPs são ferramentas essenciais para qualquer organização que deseja integrar e automatizar seus processos de negócios, aumentando a eficiência e a competitividade. Vamos mergulhar nesse universo e descobrir tudo o que você precisa saber sobre ERPs.</p>
+                  </div>
+                </div>
+            </div>
+            <div className="bg-white shadow-lg hover:shadow-2xl rounded-md p-4">
+              <div className="flex flex-col items-center h-full w-auto p-1 gap-2">
+                  <div className="flex justify-center items-center h-40 w-60">
+                    <img className="w-full h-auto rounded-lg" src="https://blog.asaas.com/wp-content/uploads/2022/01/ERP-1024x576.jpg" alt=""/>
+                  </div>
+                  <div className="flex flex-col gap-1 text-gray-600">
+                    <h1 className="text-xl font-bold">O que é um ERP?</h1>
+                    <p className="text-justify">Um ERP, ou Enterprise Resource Planning, é um sistema de software que integra todas as facetas de uma operação empresarial, incluindo planejamento, desenvolvimento, fabricação, vendas e marketing. A principal característica de um ERP é sua capacidade de proporcionar uma visão integrada dos processos empresariais, facilitando a tomada de decisões informadas e estratégicas.</p>
+                  </div>
+              </div>
+            </div>
+             <div className="bg-white shadow-lg hover:shadow-2xl rounded-md p-4">
+              <div className="flex flex-col items-center h-full w-auto p-1 gap-2">
+                  <div className="flex justify-center items-center h-40 w-60">
+                    <img className="w-full h-auto rounded-lg" src="https://media.licdn.com/dms/image/D4E12AQHkLZeWzZVHhw/article-cover_image-shrink_720_1280/0/1702998715115?e=2147483647&v=beta&t=3gqfB--1g1e3wBUGCiwH6WqzHQGD8KsFUd-X_2ijNfM" alt="" />
+                  </div>
+                  <div className="flex flex-col gap-1 text-gray-600">
+                    <h1 className="text-xl font-bold">Implementção de ERP</h1>
+                    <h2 className="text-lg font-medium">Planejamento</h2>
+                    <p className="text-justify">A fase de planejamento é crucial para o sucesso da implementação de um ERP. Envolve a definição de objetivos, a seleção do sistema adequado e o desenvolvimento de um plano detalhado de implementação.</p>
+                  </div>
+              </div>
+            </div>
+            <div className="bg-white shadow-lg hover:shadow-2xl rounded-md p-4">
+              <div className="flex flex-col items-center h-full w-auto p-1 gap-2">
+                  <div className="flex justify-center items-center h-40 w-60">
+                    <img className="w-full h-auto rounded-lg" src="https://fia.com.br/wp-content/uploads/2019/02/computacao-em-nuvem-conclusao.jpg" alt=""/>
+                  </div>
+                  <div className="flex flex-col gap-1 text-gray-600">
+                    <h1 className="text-xl font-bold">Tendêcias e Inovaçẽs em ERP</h1>
+                    <h2 className="text-lg font-medium">Computação em nuvem</h2>
+                    <p className="text-justify">Os ERPs baseados em nuvem oferecem maior flexibilidade, escalabilidade e redução de custos com infraestrutura.</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Footer */}
-      <section className="bg-gray-200 flex items-center justify-center p-20">
-        <div className="bg-gray-800 max-w-5xl w-full rounded-xl">
+      <section className="bg-gray-200 flex items-center justify-center p-5">
+        <div className="bg-gray-800 max-w-7xl w-full rounded-lg">
           <div className="flex justify-between items-center p-4">
             <div>
               <img className="h-11" src="imagens/logo.png" alt="Logo" />
