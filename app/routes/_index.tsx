@@ -19,15 +19,15 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <>
-    <NavBar /> 
-    <Cover />
-    <Segments />
-    <ERP />
-    <Interactions />
-    <Customers />
-    <FormNews />
-    <Blog />
-    <Footer />
+      <NavBar />
+      <Cover />
+      <Segments />
+      <ERP />
+      <Interactions />
+      <Customers />
+      <FormNews />
+      <Blog />
+      <Footer />
     </>
   );
 }
