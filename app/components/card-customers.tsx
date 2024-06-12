@@ -9,7 +9,7 @@ export function Customers() {
               soluções
             </h1>
           </div>
-          <div className="grid grid-rows-2 grid-cols-2 sm:grid-cols-4 gap-4 mt-10">
+          <div className="grid grid-rows-2 grid-cols-2 max-x-5xl lg:grid-cols-4 gap-4 mt-10">
             <div className="bg-white shadow-lg hover:shadow-2xl rounded-md p-4">
               <a
                 href="https://www.telhasnordeste.com.br/"

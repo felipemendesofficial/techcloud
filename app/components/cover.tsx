@@ -12,7 +12,7 @@ export function Cover() {
             Sistema Especializado em <br /> Industria, Comércio, Saúde e
             Distribuição
           </h1>
-          <p className="text-sm sm:text-xl lg:text-2xl bg-gray-600 bg-opacity-55 p-2 rounded-2xl">
+          <p className="text-sm sm:text-xl lg:text-2xl bg-slate-700 bg-opacity-50 p-2 rounded-2xl">
             Gestão para tornar o seu negócio mais lucrativo
           </p>
           <a
