@@ -4,7 +4,7 @@ export function Customers() {
       <section className="bg-blue-800 flex items-center justify-center py-10">
         <div className="p-4">
           <div className="flex justify-center items-center">
-            <h1 className="text-xl font-bold text-white text-justify">
+            <h1 className="text-xl font-bold text-white text-justify md:text-3xl">
               Mais de 50 clientes ja transformaram sua gestão com nossas
               soluções
             </h1>

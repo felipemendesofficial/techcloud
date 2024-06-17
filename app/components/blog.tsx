@@ -1,12 +1,12 @@
 export function Blog() {
   return (
     <>
-      <section className="bg-blue-800 flex items-center justify-center py-20">
+      <section className="bg-blue-800 flex items-center justify-center py-10 sm:py-20">
         <div className="max-w-7xl p-4">
           <div className="flex justify-center items-center">
             <h1 className="text-3xl font-bold text-white">Blog</h1>
           </div>
-          <div className="grid grid-rows-4 gap-4 mt-8">
+          <div className="grid grid-rows-4 gap-4 mt-8 md:grid-cols-4">
             <div className="bg-white shadow-lg hover:shadow-2xl rounded-md p-4">
               <div className="flex flex-col items-center h-full w-auto p-1 gap-2">
                 <div className="flex justify-center items-center h-40 w-60">

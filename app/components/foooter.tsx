@@ -2,7 +2,7 @@ export function Footer() {
   return (
     <>
       <section className="bg-gray-200 flex items-center justify-center p-5">
-        <div className="bg-gray-800 max-w-7xl w-full rounded-lg text-justify text-xs">
+        <div className="bg-gray-800 max-w-5xl w-full rounded-lg text-justify">
           <div className="flex justify-between items-center p-4">
             <div>
               <img className="h-11" src="imagens/logo.png" alt="Logo" />
@@ -38,8 +38,8 @@ export function Footer() {
               </a>
             </div>
           </div>
-          <div className="flex justify-center items-center p-4">
-            <div className="grid grid-row-3 gap-4 mb-10 md:grid-cols-3">
+          <div className="flex justify-center items-center p-2">
+            <div className="grid grid-row-3 max-x-7xl gap-4 mb-10 p-2 text-xs sm:grid-cols-3 md:text-base">
               <div className="flex flex-col">
                 <div className="text-white font-bold">
                   <h1>Institucional</h1>
@@ -80,7 +80,7 @@ export function Footer() {
           </div>
 
           <div className="m-3 border-t-2 border-gray-400 p-4">
-            <div className="flex flex-col items-center justify-center text-gray-400 gap-4">
+            <div className="flex flex-col items-center justify-center text-gray-400 gap-4 text-xs md:text-base">
               <p>Mendes Informática Ltda. | 96.841.671/0001-54</p>
               <p className="hover:text-gray-300">
                 Todos os direitos reservados
